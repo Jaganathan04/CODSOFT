@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-image: linear-gradient(to left,rgb(241, 163, 39), rgb(233, 30, 192));
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f4f4f4;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-image: linear-gradient(to left,rgb(238, 29, 57),rgb(236, 120, 25));
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    
+  }
+  h1{
+    background-image: linear-gradient(to left,rgb(241, 163, 39),rgb(233, 30, 192));
+    padding: 20px 0;
+  }
+  h2{
+    margin: 60px;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+  .center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid grey;
+    padding: 6px;
+  }
+  input{
+    border: 2px solid red;
+    border-radius: 4px;
+    padding: 12px 20px;
+  }
+  label{
+    font-size: 25px;
+  }
+  
+  footer {
+    background-image: linear-gradient(to left,rgb(241, 163, 39),rgb(233, 30, 192));
+    color: #fff;
+    text-align: center;
+    align-content: baseline;
+    padding: 15px;
+  }
+  
+  
