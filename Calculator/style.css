@@ -1,6 +1,6 @@
 body {
       font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
+      background-image: linear-gradient(rgb(239, 7, 204), rgb(10, 97, 227));
       display: flex;
       justify-content: center;
       align-items: center;
@@ -11,7 +11,7 @@ body {
       background-color: #0f0d0d;
       border-radius: 10px;
       padding: 50px;
-      box-shadow: 0 0 20px rgba(255, 1, 1, 0.3);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
     }
 
     .calculator-grid {
@@ -23,7 +23,7 @@ body {
     .button {
       width: 80px;
       height: 80px;
-      background-color: #3498db;
+      background-color: #6e7675;
       border: none;
       border-radius: 10px;
       font-size: 24px;
@@ -33,7 +33,7 @@ body {
     }
 
     .button:hover {
-      background-color: #4808d3;
+        background-image: linear-gradient(rgb(234, 11, 215), yellow);
     }
 
     .button.clear {
@@ -45,8 +45,8 @@ body {
     }
 
     input[type="text"] {
-      width: 100%;
-      padding: 10px;
+      width: 90%;
+      padding: 20px;
       font-size: 24px;
       margin-bottom: 10px;
       border: none;
@@ -54,4 +54,3 @@ body {
       outline: none;
       text-align: right;
     }
-
